@@ -1,0 +1,18 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+
+# Local SQLite Database
+database.db
+
+# Storage files (keep directory structure, ignore user uploads/keys)
+static/uploads/*
+!static/uploads/.gitkeep
+static/keys/*
+!static/keys/.gitkeep
+
+# Environment & IDE
+.venv/
+venv/
+.vscode/
+.DS_Store
